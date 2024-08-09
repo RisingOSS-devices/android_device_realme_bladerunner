@@ -30,6 +30,9 @@ $(call inherit-product-if-exists, hardware/dolby/dolby.mk)
 #EPPE
 TARGET_DISABLE_EPPE := true
 
+#Inherit private keys
+include vendor/lineage-priv/keys/keys.mk
+
 # RisingOS Stuffs
 RISING_BUILDTYPE := OFFICIAL
 RISING_MAINTAINER := AAMIRR_ALI
