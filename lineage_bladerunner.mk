@@ -35,7 +35,7 @@ include vendor/lineage-priv/keys/keys.mk
 
 # RisingOS Stuffs
 RISING_BUILDTYPE := OFFICIAL
-RISING_MAINTAINER := AAMIRR_ALI
+RISING_MAINTAINER := AAMIR ALI
 RISING_DEVICE := bladerunner
 TARGET_HAS_UDFPS := true
 TARGET_ENABLE_BLUR := true
