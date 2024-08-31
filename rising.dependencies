@@ -30,7 +30,7 @@
   {
     "remote"      : "github",
     "repository"  : "Matrixx-Devices/hardware_oplus",
-    "branch"      : "wip",
+    "branch"      : "cr",
     "target_path" : "hardware/oplus"
   },
   {
