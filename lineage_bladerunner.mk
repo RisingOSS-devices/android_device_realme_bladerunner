@@ -27,6 +27,9 @@ $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 #Dolby
 $(call inherit-product-if-exists, hardware/dolby/dolby.mk)
 
+#VancedManager
+$(call inherit-product-if-exists, packages/apps/VancedManager/config.mk)
+
 #EPPE
 TARGET_DISABLE_EPPE := true
 

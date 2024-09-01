@@ -48,6 +48,10 @@ PRODUCT_PACKAGES += \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget \
     OPlusSettingsResTarget
+    
+PRODUCT_PACKAGES += \
+    FilesPrebuilt \
+    DocumentsUIGoogle
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
