@@ -41,6 +41,11 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     init.oplus.perf.rc
+   
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.0.vendor \
+    android.hardware.keymaster@4.0
 
 # Overlays
 PRODUCT_PACKAGES += \
