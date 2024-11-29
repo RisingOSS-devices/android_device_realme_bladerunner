@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+#Build extra apps
+#include vendor/extra/config.mk
+
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/realme/sm8250-common/common.mk)
 
